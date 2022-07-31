@@ -1,0 +1,25 @@
+button{
+    border: grey;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    background-color: black;
+    color: #ffffff;
+    max-width:300px;
+    max-height: 300px;
+}
+
+button:hover:enabled{
+    font-weight: bold;
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid grey;
+    box-shadow: 3px 3px #a7a4a4;
+    cursor:pointer;
+}
+
+.container{
+    display: flex; 
+    justify-content: flex-start;
+    margin: 0 25px;
+}
+
